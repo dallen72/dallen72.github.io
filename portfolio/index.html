@@ -5,8 +5,28 @@
 <link rel="stylesheet" href="styles.css">
     <style> 
       * {
-        background-color: #00000D;
-        color: darkseagreen;
+        background-color: #00000D !important;
+        color: darkseagreen !important;
+      }
+      a {
+        color: #0366d6 !important;
+      }
+      @media screen and (max-width: 699px) {
+        p.imagewrapper {
+          width: 100%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      @media screen and (min-width: 700px) {
+        p.imagewrapper {
+          max-width: 45%;
+          display: inline-block;
+          margin-left: auto;
+          margin-right: 1em;
+          min-width: 300px;
+        }
       }
     </style>
   </head>
@@ -25,17 +45,15 @@
 
 <p>The repository is privately hosted somewhere else but I contributed most of the source code.</p>
 
-<p>Images of the game is shown in this repo:</p>
+<p>Images of the game are shown in this repo:</p>
 
-<p><img src="Morpheus-2D-game-Lobby.png" alt="Image" /></p>
+<p class="imagewrapper"><img src="Morpheus-2D-game-Lobby.png" alt="Image" /></p>
 
-<p><img src="Morpheus-in-game-shooting.png" alt="Image" /></p>
+<p class="imagewrapper"><img src="Morpheus-in-game-shooting.png" alt="Image" /></p>
 
 <p>I designed the menu from the background art that was
 given to me and coded a multiplayer lobby which was working in a LAN. We also had some gameplay
 mechanics working.</p>
-
-
       
     </div>
     
