@@ -14,9 +14,9 @@ The repository is privately hosted somewhere else but I contributed most of the 
 
 Images of the game is shown in this repo:
 
-![Image](https://github.com/dallen72/Morpheus---2D-Game/blob/main/Morpheus-2D-game-Lobby.png)
+![Image](portfolio/Morpheus-2D-game-Lobby.png)
 
-![Image](https://github.com/dallen72/Morpheus---2D-Game/blob/main/Morpheus-in-game-shooting.png)
+![Image](portfolio/Morpheus-in-game-shooting.png)
 
 I designed the menu from the background art that was
 given to me and coded a multiplayer lobby which was working in a LAN. We also had some gameplay
